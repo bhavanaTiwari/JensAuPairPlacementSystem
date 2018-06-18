@@ -11,7 +11,7 @@ import edu.srh.aupair.proposalOperations.ProposalOperationsService;
 public class BookingGUI {
 
 	static IbookingServiceInterface bookingServiceObject;
-	#creating error
+	
 	public BookingGUI() throws SQLException {
 		bookingServiceObject = new BookingService();
 	}
