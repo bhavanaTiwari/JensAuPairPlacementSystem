@@ -21,7 +21,7 @@ public class UserProfileOperationsGUI {
 
 	public UserProfileOperationsGUI() throws SQLException {
 		serviceObject = new UserProfileOperationsService();
-		proposalGUI = new ProposalOperationsGUI()
+		proposalGUI = new ProposalOperationsGUI();
 	}
 
 	public static void main(String[] args) throws SQLException {
